@@ -60,7 +60,7 @@
   cursor: pointer;
   padding: 0.25rem;
   font-size: 1rem;
-  border: none;
+  border: 1px solid black;
   font-family: 'Oswald', sans-serif;
   background-color: transparent;
 }
@@ -78,4 +78,10 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
+}
+
+@media screen and (max-width:768px) {
+  #form-file-upload {
+    width: 100%;
+}
 }
